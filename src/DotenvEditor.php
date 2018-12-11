@@ -310,9 +310,8 @@ class DotenvEditor
     {
         if ($timestamp === null) {
             return $this->envToArray($this->env);
-        } else {
-            return $this->envToArray($this->getBackupFile($timestamp));
         }
+        return $this->envToArray($this->getBackupFile($timestamp));
     }
 
     /**
