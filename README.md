@@ -1,12 +1,14 @@
+# A Laravel package for editing the .env file dynamically
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/26c13ba0918c42858ec6f94607238baa)](https://www.codacy.com/app/fabianhagen87/laravel-dotenv-editor?utm_source=github.com&utm_medium=referral&utm_content=Brotzka/laravel-dotenv-editor&utm_campaign=badger)
 [![Latest Stable Version](https://poser.pugx.org/brotzka/laravel-dotenv-editor/v/stable)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
 [![Total Downloads](https://poser.pugx.org/brotzka/laravel-dotenv-editor/downloads)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
 [![Latest Unstable Version](https://poser.pugx.org/brotzka/laravel-dotenv-editor/v/unstable)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
 [![License](https://poser.pugx.org/brotzka/laravel-dotenv-editor/license)](https://packagist.org/packages/brotzka/laravel-dotenv-editor)
 
-# Edit your Laravel .env file
+## Edit your Laravel .env file
 
-This package offers you the possibility to edit your .env dynamically through a controller or model. 
+This package offers you the possibility to edit your .env dynamically through a controller or model.
 
 The current version (2.x) ships with a graphical user interface based on VueJS to offer you a very simple implementation of all features.
 
@@ -37,7 +39,7 @@ Here are some images showing the gui which ships with the current version:
 ![More options for backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_07.png)
 ![Uploading Backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_05.png)
 
-# Installation
+## Installation
 
 Visit the [Wiki-page](https://github.com/Brotzka/laravel-dotenv-editor/wiki/Installation) to get more Information.
 
