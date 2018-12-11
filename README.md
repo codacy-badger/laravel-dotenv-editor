@@ -11,6 +11,7 @@ This package offers you the possibility to edit your .env dynamically through a 
 The current version (2.x) ships with a graphical user interface based on VueJS to offer you a very simple implementation of all features.
 
 List of available functions:
+
 - check, if a given key exists
 - get the value of a key
 - get the complete content of your .env
@@ -25,7 +26,6 @@ List of available functions:
 - check, if auto-backups are enabled or not
 - get and set a backup-path
 
-
 Here are some images showing the gui which ships with the current version:
 
 ![Overview](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_01.png)
@@ -37,17 +37,16 @@ Here are some images showing the gui which ships with the current version:
 ![More options for backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_07.png)
 ![Uploading Backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_05.png)
 
-
 # Installation
 
 Visit the [Wiki-page](https://github.com/Brotzka/laravel-dotenv-editor/wiki/Installation) to get more Information.
-
 
 ## Examples
 
 The following example shows an controller with a method, in which we change some values from the .env.
 Make sure, the entries you want to change, really exist in your .env.
 
+```php
     namespace App\Http\Controllers;
 
     use Brotzka\DotenvEditor\DotenvEditor;
@@ -63,5 +62,6 @@ Make sure, the entries you want to change, really exist in your .env.
             ]);
         }
     }
+```
 
 For more exmaples visit the Wiki.
