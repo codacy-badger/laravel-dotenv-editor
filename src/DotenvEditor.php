@@ -521,8 +521,8 @@ class DotenvEditor
      */
     public function setStartAndEndWith($value, $string = '')
     {
-        $value = str_start($value, '"');
-        $value = str_finish($value, '"');
+        $value = str_start($value, $string);
+        $value = str_finish($value, $string);
         return $value;
     }
 
